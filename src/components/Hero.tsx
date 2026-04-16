@@ -88,37 +88,26 @@ export default function Hero() {
               <div className="absolute -top-12 -right-12 w-72 h-72 bg-secondary/20 rounded-full blur-3xl" />
               <div className="absolute -bottom-12 -left-12 w-56 h-56 bg-blue-300/20 rounded-full blur-3xl" />
 
-              {/* Product image placeholder card */}
-              <div className="relative bg-white/10 backdrop-blur border border-white/20 rounded-3xl p-8 shadow-2xl">
-                {/* Stats row */}
-                <div className="flex justify-around mb-6">
+              {/* Product image */}
+              <div className="relative">
+                <img
+                  src="https://github.com/user-attachments/assets/6ae225fc-0bbc-4dfd-8251-3a467aef7eea"
+                  alt="Bandeja com pães, pão de queijo e salgados Pani&Forno"
+                  className="w-full drop-shadow-2xl"
+                />
+
+                {/* Floating stats bar */}
+                <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 w-[90%] bg-white/15 backdrop-blur-md border border-white/25 rounded-2xl px-6 py-3 flex justify-around shadow-xl">
                   {[
                     { value: '15+', label: 'Produtos' },
                     { value: 'B2B', label: 'Exclusivo' },
                     { value: '2019', label: 'Fundada' },
                   ].map((stat) => (
                     <div key={stat.label} className="text-center">
-                      <div className="text-2xl font-black text-secondary-light">{stat.value}</div>
+                      <div className="text-xl font-black text-secondary-light">{stat.value}</div>
                       <div className="text-xs text-blue-200 font-medium">{stat.label}</div>
                     </div>
                   ))}
-                </div>
-
-                {/* Image placeholder */}
-                <div className="bg-white/10 rounded-2xl p-6 text-center border border-white/10 mb-4">
-                  <div className="text-6xl mb-3">🥖🧀🥟</div>
-                  <div className="text-white font-bold text-sm mb-2">📸 Foto sugerida dos produtos</div>
-                  <p className="text-blue-200 text-xs leading-relaxed">
-                    Bandeja com pão francês, pão de queijo e salgados congelados
-                    sobre superfície fria. Fotografia profissional, fundo azul
-                    da marca, iluminação clean e clara.
-                  </p>
-                </div>
-
-                <div className="text-center">
-                  <span className="inline-block bg-secondary/80 text-white text-xs font-bold px-4 py-1.5 rounded-full">
-                    Substituir por foto real dos produtos
-                  </span>
                 </div>
               </div>
             </div>
