@@ -31,7 +31,7 @@ export default function Hero() {
             >
               <span className="inline-flex items-center gap-1.5 bg-secondary/20 text-secondary-light border border-secondary/30 text-xs font-bold px-4 py-2 rounded-full uppercase tracking-widest">
                 <Snowflake size={12} />
-                Distribuidora B2B · Congelados
+                Distribuidora · Congelados
               </span>
             </motion.div>
 
@@ -57,7 +57,7 @@ export default function Hero() {
                 className="flex items-center justify-center gap-2 bg-secondary hover:bg-secondary-dark text-white font-bold px-7 py-4 rounded-full transition-colors shadow-xl shadow-black/20"
               >
                 <MessageCircle size={20} />
-                Falar com o Comercial no WhatsApp
+                Falar com o Comercial
               </motion.a>
               <motion.a
                 href="#contact"

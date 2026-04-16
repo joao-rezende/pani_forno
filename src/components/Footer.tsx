@@ -29,7 +29,7 @@ export default function Footer() {
               <Logo size={56} />
               <div>
                 <div className="font-black text-xl">Pani&amp;Forno</div>
-                <div className="text-blue-300 text-xs font-semibold">Distribuidora B2B de Congelados</div>
+                <div className="text-blue-300 text-xs font-semibold">Distribuidora de Congelados</div>
               </div>
             </div>
             <p className="text-blue-200 text-sm leading-relaxed mb-6 max-w-xs">
@@ -109,7 +109,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Pani&amp;Forno – Todos os direitos reservados.
           </p>
           <p className="text-blue-400 text-xs">
-            Distribuidora B2B · Ribeirão Preto, SP
+            Distribuidora · Ribeirão Preto, SP
           </p>
         </div>
       </div>

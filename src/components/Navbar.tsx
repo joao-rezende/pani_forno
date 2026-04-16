@@ -38,11 +38,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-2 group">
-            <Logo size={48} />
-            <div className="hidden sm:block">
-              <div className="text-primary font-black text-lg leading-none">Pani&Forno</div>
-              <div className="text-secondary text-xs font-semibold leading-none">Distribuidora B2B</div>
-            </div>
+            <Logo size={50} />
           </a>
 
           {/* Desktop Nav */}
